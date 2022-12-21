@@ -1,0 +1,12 @@
+CompileTimeVersion = "@XML_VERSION@"
+
+libxml2Version =
+function(runtime = FALSE)    
+{
+    if(runtime)
+        .Call("R_libxml2_version")
+    else
+        CompileTimeVersion
+}
+
+    

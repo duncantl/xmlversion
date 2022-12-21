@@ -1,0 +1,7 @@
+Package: xmlversion
+Version: 0.1-0
+Title: Test libxml2 version
+Description: Test the version of the libxml2 library with which the package was installed.
+Author: Duncan Temple Lang
+Maintainer: Duncan Temple Lang
+License: BSD

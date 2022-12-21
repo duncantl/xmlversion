@@ -1,0 +1,3 @@
+useDynLib(xmlversion)
+
+export(libxml2Version)
