@@ -5,7 +5,10 @@ AC_PATH_PROGS(XML_CONFIG, xml2-config)
 XML_VERSION=`${XML_CONFIG} --version`
 
 AC_SUBST(XML_VERSION)
-AC_OUTPUT(src/Makevars R/version.R)
+AC_SUBST(XML_CONFIG)
+
+AC_CONFIG_FILES(src/Makevars R/version.R)
+AC_OUTPUT()
 
 
 
